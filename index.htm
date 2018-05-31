@@ -1,59 +1,175 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Organic Website</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<style>
-	</style>
+  	<meta charset="UTF-8">
+  <title>Summer Party</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <style>
+    * {
+    box-sizing: border-box;
+      }
+      #main_menu {
+        font-size: 25px;
+        color:#3B3131;
+        text-decoration: none;
+        font-family: Impact, Charcoal, sans-serif;
+        padding: 5px;
+        /* border-color: hsl(0, 0%, 0%);
+        border-width: 1px; */
+        /* border-style: solid; */
+        margin: auto;
+		position: relative;
+        /* top: -10px; */
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+      }
+      #main_menu a {
+        color: inherit;
+		text-decoration: inherit;
+      }
+      .menubar {
+          margin-left: 10px;
+      }
+      .box {
+        float: left;
+        width: 33%;
+        /* border-color: black;*/
+        /* border-width: 1px;
+        border-style: solid;  */
+        text-align: center;
+      }
+      /* #banner img {
+        max-width: 100%;
+      } */
+      .wrap {
+        max-width: 1200px;
+        margin: auto;
+      }
+      .beer_line1{
+		position: relative;
+		top: 0px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      .beer_line2 {
+		position: relative;
+		top: 30px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      .beer_line3 {
+		position: relative;
+		top: 60px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      .beer_line4 {
+		position: relative;
+		top: 90px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      	.box img:hover {
+		animation: shake 0.5s;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes shake {
+		0% { transform: translate(1px, 1px) rotate(0deg); }
+		10% { transform: translate(-1px, -2px) rotate(-1deg); }
+		20% { transform: translate(-3px, 0px) rotate(1deg); }
+		30% { transform: translate(3px, 2px) rotate(0deg); }
+		40% { transform: translate(1px, -1px) rotate(1deg); }
+		50% { transform: translate(-1px, 2px) rotate(-1deg); }
+		60% { transform: translate(-3px, 1px) rotate(0deg); }
+		70% { transform: translate(3px, 1px) rotate(-1deg); }
+		80% { transform: translate(-1px, -1px) rotate(1deg); }
+		90% { transform: translate(1px, 2px) rotate(0deg); }
+		100% { transform: translate(1px, -2px) rotate(-1deg); }
+	  }
+  </style>
 </head>
 
 <body>
-	<div class="wrap1"></div>
-	<div id="heading"></div>
-	<div id="title_div">
-			<h2>VIET ORGANIC TRADE</h2>
-	</div>
-		<div id="line"></div>
-		<div id="slogan">YOUR BEST ORGANIC TRADE PARTNERS FROM VIETNAM</div>
-	<div id="menu">
-			<div class="topnav">
-					<div class ="div" id="div1"><a href="#">HOME</a></div>
-					<div class ="div" id="div2"><a href="#">DASHBOARD</a></div>
-					<div class ="div" id="div3"><a href="#">DATA</a></div>
-					<div class ="div" id="div4"><a href="#">STORIES</a></div>
-					<div class ="div" id="div5"><a href="#">CONTACT US</a></div>
-			</div>
-	</div>
-	<div id="question">OUR PRESTIGE PRODUCTS</div>
-	<div class="picture" id="first_pic" title="bananas" alt="VN Organic Foods"></div>
-	<div class="picture" id="second_pic" title="beans" alt="VN Organic Foods"></div>
-	<div class="picture" id="third_pic" title="bell_peppers" alt="VN Organic Foods"></div>
-	<div id="banana">BANANAS</div>
-	<div id="soy_bean">SOY BEANS</div>
-	<div id="bell_pepper">BELL PEPPERS</div>
+<div class="wrap">
 
-	<div class="picture" id="fourth_pic" title="carrots" alt="VN Organic Foods"></div>
-	<div class="picture" id="fifth_pic" title="cheeses" alt="VN Organic Foods"></div>
-	<div class="picture" id="sixth_pic" title="coffees" alt="VN Organic Foods"></div>
-	<div id="carrot">CARROTS</div>
-	<div id="cheese">CHEESES</div>
-	<div id="coffee_bean">COFFEE BEANS</div>
+<!-- <div id="banner">
+<img src="image/11.jpg">
+</div> -->
+<br/><br/>
+<div id="main_menu">
+    <a class="menubar" href="">HOME</a>
+    <a class="menubar" href="">SUMMER PARTIES</a>
+    <a class="menubar" href="">BEERS</a>
+    <a class="menubar" href="">BEACHS</a>
+    <a class="menubar" href="">JOIN US</a>
+</div>
 
-	<div class="picture" id="seventh_pic" title="eggs" alt="VN Organic Foods"></div>
-	<div class="picture" id="eighth_pic" title="oranges" alt="VN Organic Foods"></div>
-	<div class="picture" id="nineth_pic" title="pine_apples" alt="VN Organic Foods"></div>
-	<div id="egg">EGGS</div>
-	<div id="orange">ORANGES</div>
-	<div id="pine_apple">PINE APPLES</div>
+<div id="main_content">
 
-	<div class="picture" id="tenth_pic" title="rices" alt="VN Organic Foods"></div>
-	<div class="picture" id="eleventh_pic" title="salmons" alt="VN Organic Foods"></div>
-	<div class="picture" id="twelfth_pic" title="other products" alt="VN Organic Foods"></div>
-	<div id="rice">RICES</div>
-	<div id="salmon">SALMONS</div>
-	<div id="others">OTHER PRODUCTS</div> 
+<div class="beer_line1">
+<div class="box beer1">
+    <img title="Corona Beer" alt="Corona Beer" src="image/1.jpg">
+</div>
+
+<div class="box beer2">
+    <img title="Azuga Beer" alt="Azuga Beer" src="image/2.jpg">
+</div>
+
+<div class="box beer3">
+    <img title="Sicilian Beer" alt="Sicilian Beer" src="image/3.jpg">
+</div>
+
+</div>
+<br>
+<div class="beer_line2">
+
+<div class="box beer4">
+    <img title="Nenea Iancu Beer" alt="Nenea Iancu Beer" src="image/4.jpg">
+</div>
+            
+<div class="box beer5">
+    <img title ="Eldeweiss Beer" alt="Eldeweiss Beer" src="image/5.jpg">
+</div>
+
+<div class="box beer6">
+    <img title="Noroc Beer" alt="Noroc Beer" src="image/6.jpg">
+</div>
+
+</div>
+<br>
+<div class="beer_line3">
+
+<div class="box beer7">
+    <img title="Truc Bach Beer" alt="Truc Bach Beer" src="image/7.jpg">
+</div>
+            
+<div class="box beer8">
+    <img title="Saigon Beer" alt="Saigon Beer" src="image/8.jpg">
+</div>
+            
+<div class="box beer9">
+    <img title="Singha Beer" alt="Singha Beer" src="image/9.jpg">
+</div>
+<br>
+</div>
+
+<div class="beer_line4">
+
+<div class="box beer10">
+    <img title="Lao Beer" alt="Lao Beer" src="image/10.jpg">
+</div> 
+<div class="box beer11">
+    <img title="Sapporo Beer" alt="Sapporo Beer" src="image/12.jpg">
+</div>
+<div class="box beer12">
+    <img title="Cass Beer" alt="Cass Beer" src="image/13.jpg">
+</div>  
+</div>
+
+</div>
 </body>
 </html>
