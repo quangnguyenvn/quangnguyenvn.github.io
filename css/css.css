@@ -8,9 +8,11 @@ img {
     width: 100%;
 }
 
-.main-content {
-    width: 1200px;
-    margin: auto;
+#main_content {
+    position: absolute;
+    width: 100%;
+    top: 670px;
+    text-align: center;
 }
 
 .row {
@@ -30,9 +32,13 @@ li {
 }
 
 #main_menu {
+
     /* width: 1200px; */
-    margin: auto;
+    /* left: 50%; */ 
+    position: absolute;
     text-align: center;
+    top: 270px;
+    left: 550px;
 }
 
 #main_menu a {
@@ -49,7 +55,7 @@ li {
 
 #back {
     position: fixed;
-    top: 450px;
+    top: 460px;
     right: 0px;
 }
 
