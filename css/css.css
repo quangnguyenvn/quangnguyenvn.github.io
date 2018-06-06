@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.main-content {
+    width: 1200px;
+    margin: auto;
+}
+
+.row {
+    width: 100%;
+}
+
+.card {
+    width: 25%;
+    padding: 15px;
+    float: left;
+}
+
+
+li {
+    /* display: inline-block; */
+    padding: 25px;
+}
+
+#main_menu {
+    /* width: 1200px; */
+    margin: auto;
+    text-align: center;
+}
+
+#main_menu a {
+    font-size: 30px;
+    color:#3B3131;
+    text-decoration: inherit;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+#banner {
+    width: 1200px;
+    margin: auto;
+}
+
+#back {
+    position: fixed;
+    top: 450px;
+    right: 0px;
+}
+
+.card img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
