@@ -181,6 +181,7 @@
     margin: auto;
     background: #4f6367;
     border-radius: 100%;
+    z-index: 15;
   }
 
   #seconds {
@@ -395,6 +396,7 @@
   margin: auto;
   background: #4f6367;
   border-radius: 100%;
+  z-index: 15;
 }
 
 #second_seconds, #third_seconds, #fourth_seconds {
