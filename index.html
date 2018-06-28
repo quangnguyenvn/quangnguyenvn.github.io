@@ -1,100 +1,69 @@
-<html>
-  <head>
-      <title>Clock</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="css/style.css" />
-  </head>
+<html lang="eng">
+<head>
+<meta charset="utf-8" name="viewport"  content="width=device-width, initial-scale=1">
+<title>My Calculator</title>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
 
-  <body>
-<!-- BIG CLOCK -->
-<div class="clock">
-          <div id="brand">SEIKO</div>
-          <div id="hours"></div>
-          <div id="minutes"></div>
-          <div id="seconds"></div>
-          <div class="one"></div>
-          <div class="two"></div>
-          <div class="three"></div>
-          <div class="four"></div>
-          <div class="five"></div>
-          <div class="six"></div>
-          <div class="seven"></div>
-          <div class="eight"></div>
-          <div class="nine"></div>
-          <div class="ten"></div>
-          <div class="eleven"></div>
-          <div class="twelve"></div>
-          <div class="center"></div>
+<body>
+<div class="wrap">
+    <div class="container">
 
-<!-- SECOND CLOCK -->
+        <table border="0" cellspacing="2px">
+            <tr>
+                <td colspan="4" id="brand">CASINO</td>
+            </tr>
+            <tr>
+                <td colspan="4" id="space1"></td>
+            </tr>
+            <tr>
+                <td colspan="4" id="inputLabel">0</td>
+            </tr>
+            <tr>
+                    <td colspan="4" id="space2"></td>
+            </tr>
+            <tr>
+                <td><button class="top_side" onclick="pushBtn(this);">EXP</button></td>
+                <td><button class="top_side" onclick="pushBtn(this);">LOG</button></td>
+                <td><button class="top_side" onclick="pushBtn(this);">π</button></td>
+                <td><button id="AC" onclick="pushBtn(this);">AC</button></td>
+            </tr>
+            <tr>
+                <td><button class="button" id="sqrt" onclick="pushBtn(this)">(²)</button></td>
+                <td><button class="button" id="root_sqrt" onclick="pushBtn(this)">√</button></td>
+                <td><button class="button" id="pi" onclick="pushBtn(this)">%</button></td>
+                <td><button class="right_side" onclick="pushBtn(this);">*</button></td>
+            </tr>
+            <tr>
+                    <td><button class="button" onclick="pushBtn(this);">7</button></td>
+                    <td><button class="button" onclick="pushBtn(this);">8</button></td>
+                    <td><button class="button" onclick="pushBtn(this);">9</button></td>
+                    <td><button class="right_side" onclick="pushBtn(this);">/</button></td>
+            </tr>
+            <tr>
+                    <td><button class="button" onclick="pushBtn(this);">4</button></td>
+                    <td><button class="button" onclick="pushBtn(this);">5</button></td>
+                    <td><button class="button" onclick="pushBtn(this);">6</button></td>
+                    <td><button class="right_side" onclick="pushBtn(this);">+</button></td>
+            </tr>
+            <tr>
+                    <td><button class="button" onclick="pushBtn(this);">1</button></td>
+                    <td><button class="button" onclick="pushBtn(this);">2</button></td>
+                    <td><button class="button" onclick="pushBtn(this);">3</button></td>
+                    <td><button class="right_side" onclick="pushBtn(this);">-</button></td>
+            </tr>
+            <tr>
+                    <td><button class="button" onclick="pushBtn(this);">0</button></td>
+                    <td><button class="button" onclick="pushBtn(this);">.</button></td>
+                    <td colspan="2"><button id="equal" onclick="pushBtn(this);">=</button></td>
+            </tr>
+        </table>
 
-        <div id="second_watch">
-            <div id="city1">NEW YORK</div>
-            <div id="second_hours"></div>
-            <div id="second_minutes"></div>
-            <div id="second_seconds"></div>
-            <div class="second_one"></div>
-            <div class="second_two"></div>
-            <div class="second_three"></div>
-            <div class="second_four"></div>
-            <div class="second_five"></div>
-            <div class="second_six"></div>
-            <div class="second_seven"></div>
-            <div class="second_eight"></div>
-            <div class="second_nine"></div>
-            <div class="second_ten"></div>
-            <div class="second_eleven"></div>
-            <div class="second_twelve"></div>
-            <div class="second_center"></div>
-        </div>
-
-<!-- THIRD CLOCK -->
-
-    <div id="third_watch">
-          <div id="city2">TOKYO</div>
-          <div id="third_hours"></div>
-          <div id="third_minutes"></div>
-          <div id="third_seconds"></div>
-          <div class="third_one"></div>
-          <div class="third_two"></div>
-          <div class="third_three"></div>
-          <div class="third_four"></div>
-          <div class="third_five"></div>
-          <div class="third_six"></div>
-          <div class="third_seven"></div>
-          <div class="third_eight"></div>
-          <div class="third_nine"></div>
-          <div class="third_ten"></div>
-          <div class="third_eleven"></div>
-          <div class="third_twelve"></div>
-          <div class="third_center"></div>
     </div>
-
-<!-- FOURTH CLOCK -->
-
-    <div id="fourth_watch">
-          <div id="city3">BERLIN</div>
-          <div id="fourth_hours"></div>
-          <div id="fourth_minutes"></div>
-          <div id="fourth_seconds"></div>
-          <div class="fourth_one"></div>
-          <div class="fourth_two"></div>
-          <div class="fourth_three"></div>
-          <div class="fourth_four"></div>
-          <div class="fourth_five"></div>
-          <div class="fourth_six"></div>
-          <div class="fourth_seven"></div>
-          <div class="fourth_eight"></div>
-          <div class="fourth_nine"></div>
-          <div class="fourth_ten"></div>
-          <div class="fourth_eleven"></div>
-          <div class="fourth_twelve"></div>
-          <div class="fourth_center"></div>
+    
     </div>
+    <script type="text/javascript" src="js/cal.js"></script>
+</body>
 
-</div>
-
-      <script type="text/javascript" src="js/app.js"></script>
-  </body>  
-
-  </html>
+</html>

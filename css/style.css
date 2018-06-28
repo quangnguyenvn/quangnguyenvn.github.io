@@ -1,468 +1,182 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
+	font-family: 'Inconsolata', monospace;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
 
-  body {
-    background-color:  #b8d8d8;
-  }
-  /* 1ST WATCH */
-  .clock {
-    position: relative;
-    height: 500px;
-    width: 500px;
-    background: #eef5db;
-    box-sizing: border-box;
-    border-radius: 100%;
-    border: 15px solid #4f6367;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    box-shadow: 0 0 15px 0 black;
-  }
-
-  #brand {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 60px;
-    margin: 0 auto;
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 30px;
-    font-family: "Bookman Old Style";
-    z-index:1;
-    color: #4f6367;
-  }
-
-  .one {
-    position: absolute;
-    width: 5px;
-    height: 15px;
-    background: #7a9e9f;
-    top: 34px;
-    right: 120px;
-    margin: 0 auto;
-    transform: rotate(30deg);
-  }
-
-  .two {
-    position: absolute;
-    width: 5px;
-    height: 15px;
-    background: #7a9e9f;
-    top: 116px;
-    right: 40px;
-    margin: 0 auto;
-    transform: rotate(60deg);
-  }
-
-  .three {
-    position: absolute;
-    width: 20px;
-    height: 10px;
-    background: #7a9e9f;
-    top: 0;
-    bottom: 0;
-    right: 5px;
-    margin: auto 0;
-   }
-
-   .four {
-    position: absolute;
-    width: 5px;
-    height: 15px;
-    background: #7a9e9f;
-    top: 339px;
-    right: 40px;
-    margin: 0 auto;
-    transform: rotate(120deg);
-   }
-
-   .five {
-    position: absolute;
-    width: 5px;
-    height: 15px;
-    background: #7a9e9f;
-    top: 421px;
-    right: 120px;
-    margin: 0 auto;
-    transform: rotate(150deg);
-   }
-
-   .six {
-    position: absolute;
-    width: 10px;
-    height: 20px;
-    background: #7a9e9f;
-    left: 0;
-    bottom: 5px;
-    right: 0;
-    margin: 0 auto;
-  }
-
-  .seven {
-    position: absolute;
-    width: 5px;
-    height: 15px;
-    background: #7a9e9f;
-    left: 120px;
-    top: 421px;
-    margin: 0 auto;
-    transform: rotate(210deg);
-  }
-
-  .eight {
-    position: absolute;
-    width: 5px;
-    height: 15px;
-    background: #7a9e9f;
-    left: 40px;
-    top: 339px;
-    margin: 0 auto;
-    transform: rotate(240deg);
-  }
-
-  .nine {
-    position: absolute;
-    width: 20px;
-    height: 10px;
-    background: #7a9e9f;
-    top: 0;
-    bottom: 0;
-    left: 5px;
-    margin: auto 0;
-   }  
-
-   .ten {
-    position: absolute;
-    width: 5px;
-    height: 15px;
-    background: #7a9e9f;
-    top: 116px;
-    left: 40px;
-    margin: auto 0;
-    transform: rotate(300deg);
-   }
-
-  .eleven {
-    position: absolute;
-    width: 5px;
-    height: 15px;
-    background: #7a9e9f;
-    top: 34px;
-    left: 120px;
-    margin: 0 auto;
-    transform: rotate(330deg);
-  }
-
-  .twelve {
-    position: absolute;
-    width: 10px;
-    height: 20px;
-    background: #7a9e9f;
-    left: 0;
-    top: 5px;
-    right: 0;
-    margin: 0 auto;
-  }
-
-   .center {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    left: 0; right: 0; bottom: 0; top: 0;
-    margin: auto;
-    background: #4f6367;
-    border-radius: 100%;
-    z-index: 15;
-  }
-
-  #seconds {
-    position: absolute;
-    height: 200px;
-    width: 3px;
-    left: 0; right: 0; top: 0; bottom: 200px; 
-    margin: auto;
-    background: #4f6367;
-    -webkit-transform-origin: bottom;
-    z-index: 10;
-    border-radius: 3px;
- }
-
-
- #minutes {
-    position: absolute;
-    height: 180px;
-    width: 5px;
-    left: 0; right: 0; top: 0; bottom: 160px; 
-    margin: auto;
-    background: #7a9e9f;
-    -webkit-transform-origin: bottom;
-    z-index: 9;
-    border-radius: 5px;
-  }
-
-
-  #hours {
-    position: absolute;
-    height: 130px;
-    width: 10px;
-    left: 0; right: 0; top: 0; bottom: 130px; 
-    margin: auto;
-    background: #fe5f55;
-    -webkit-transform-origin: bottom;
-    z-index: 8;
-    border-radius: 10px;
-  } 
-  /* 2ND WATCH */
-  #second_watch {
-    position: relative;
-    height: 120px;
-    width: 120px;
-    background: white;
-    box-sizing: border-box;
-    border-radius: 100%;
-    border: 2px solid #4f6367;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 65px;
-    margin: auto;
-  }
-
-  #city1, #city2, #city3 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 20px;
-    margin: 0 auto;
-    width: 60px;
-    height: 8px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 10px;
-    font-family: "Bookman Old Style";
-    z-index:1;
-    color: #4f6367;
-  }
-
-  .second_one, .third_one, .fourth_one {
-    position: absolute;
-    width: 2px;
-    height: 5px;
-    background: #7a9e9f;
-    top: 12px;
-    right: 32px;
-    margin: 0 auto;
-    transform: rotate(30deg);
-  }
-
-  .second_two, .third_two, .fourth_two {
-    position: absolute;
-    width: 2px;
-    height: 5px;
-    background: #7a9e9f;
-    top: 30px;
-    right: 13px;
-    margin: 0 auto;
-    transform: rotate(60deg);
-  }
-  .second_three, .third_three, .fourth_three {
-    position: absolute;
-    width: 4px;
-    height: 7px;
-    background: #7a9e9f;
-    top: 0;
-    bottom: 0;
-    right: 3px;
-    margin: auto 0;
-    transform: rotate(90deg);
-   }
-
-   .second_four, .third_four, .fourth_four {
-    position: absolute;
-    width: 2px;
-    height: 5px;
-    background: #7a9e9f;
-    top: 81px;
-    right: 13px;
-    margin: 0 auto;
-    transform: rotate(120deg);
-  }
-
-  .second_five, .third_five, .fourth_five {
-    position: absolute;
-    width: 2px;
-    height: 5px;
-    background: #7a9e9f;
-    top: 99px;
-    right: 32px;
-    margin: 0 auto;
-    transform: rotate(150deg);
-  }
-
-   .second_six, .third_six, .fourth_six {
-    position: absolute;
-    width: 4px;
-    height: 7px;
-    background: #7a9e9f;
-    left: 0;
-    bottom: 3px;
-    right: 0;
-    margin: 0 auto;
-    transform: rotate(180deg);
-  }
-
-  .second_seven, .third_seven, .fourth_seven {
-    position: absolute;
-    width: 2px;
-    height: 5px;
-    background: #7a9e9f;
-    top: 99px;
-    left: 32px;
-    margin: 0 auto;
-    transform: rotate(210deg);
-  }
-
-  .second_eight, .third_eight, .fourth_eight {
-    position: absolute;
-    width: 2px;
-    height: 5px;
-    background: #7a9e9f;
-    top: 81px;
-    left: 13px;
-    margin: 0 auto;
-    transform: rotate(240deg);
-  }
-
-  .second_nine, .third_nine, .fourth_nine {
-    position: absolute;
-    width: 4px;
-    height: 7px;
-    background: #7a9e9f;
-    top: 0;
-    bottom: 0;
-    left: 3px;
-    margin: auto 0;
-    transform: rotate(270deg);
-   }  
-
-   .second_ten, .third_ten, .fourth_ten {
-    position: absolute;
-    width: 2px;
-    height: 5px;
-    background: #7a9e9f;
-    top: 30px;
-    left: 13px;
-    margin: 0 auto;
-    transform: rotate(300deg);
-  }
-
-  .second_eleven, .third_eleven, .fourth_eleven {
-    position: absolute;
-    width: 2px;
-    height: 5px;
-    background: #7a9e9f;
-    top: 12px;
-    left: 32px;
-    margin: 0 auto;
-    transform: rotate(330deg);
-  }
-
-  .second_twelve, .third_twelve, .fourth_twelve {
-    position: absolute;
-    width: 4px;
-    height: 7px;
-    background: #7a9e9f;
-    left: 0;
-    top: 3px;
-    right: 0;
-    margin: 0 auto;
-    transform: rotate(360deg);
-  }
-
-.second_center, .third_center, .fourth_center {
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  left: 0; right: 0; bottom: 0; top: 0;
-  margin: auto;
-  background: #4f6367;
-  border-radius: 100%;
-  z-index: 15;
 }
 
-#second_seconds, #third_seconds, #fourth_seconds {
-  position: absolute;
-  height: 45px;
-  width: 2px;
-  left: 0; right: 0; top: 0; bottom: 45px; 
-  margin: auto;
-  background: #4f6367;
-  -webkit-transform-origin: bottom;
-  z-index: 5;
+body {
+	background: #E4DCA4;
 }
 
-#second_minutes, #third_minutes, #fourth_minutes{
-  position: absolute;
-  height: 37px;
-  width: 3px;
-  left: 0; right: 0; top: 0; bottom: 35px; 
-  margin: auto;
-  background: #7a9e9f;
-  -webkit-transform-origin: bottom;
-  z-index: 4;
-  border-radius: 2px;
+.button {
+	width: 65px;
+	height: 50px;
+	border-radius: 50%;
+	color: white;
+	background:#49402F;
+	cursor: pointer;
+	font-size: 18px;
+
 }
+/* ----------------------HOVER--------------------- */
+.button:hover, .top_side:hover {background-color: #8e7d5e}
 
-#second_hours, #third_hours, #fourth_hours {
-  position: absolute;
-  height: 25px;
-  width: 5px;
-  left: 0; right: 0; top: 0; bottom: 25px; 
-  margin: auto;
-  background:  #b8d8d8;
-  -webkit-transform-origin: bottom;
-  z-index: 3;
-  border-radius: 3px;
-} 
-
-/* 3RD WATCH */
-  #third_watch {
-    position: relative;
-    height: 120px;
-    width: 120px;
-    background: white;
-    box-sizing: border-box;
-    border-radius: 100%;
-    border: 2px solid #4f6367;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 65px;
-    margin: auto;
+.button:active, .top_side:active {
+  background-color: #8e7d5e;
+  box-shadow: 0 3px #49402F;
+  transform: translateY(4px);
+}
+/* ------------------------------------------- */
+.button:focus {
+	outline: none;
   }
 
-/* 4TH WATCH */
-
-  #fourth_watch {
-    position: relative;
-    height: 120px;
-    width: 120px;
-    background: white;
-    box-sizing: border-box;
-    border-radius: 100%;
-    border: 2px solid #4f6367;
-    position: absolute;
-    right: 0;
+.container {
+	position: relative;
+	width: 266px;
+	height: 440px;
+	position: absolute;
+	margin: auto;
+	top: 0;
     left: 0;
-    bottom: 65px;
-    margin: auto;
+    right: 0;
+	bottom: 0;
+	background: #B6A37C;
+
+}
+
+.wrap {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 300px;
+	height: 500px;
+	border-radius: 10px;
+	background: #B6A37C;
+	box-shadow: 0 0 25px 0 black;
+}
+
+#brand{
+	text-align: center;
+	vertical-align: middle;
+	height: 30px;
+	color: white;
+	font-size: 25px;
+}
+#space1 {
+	height: 5px;
+}
+#space2 {
+	height: 25px;
+}
+#equal {
+	width: 134px;
+	height: 45px;
+	border-radius: 20px;
+	color: white;
+	background: #E77917;
+	box-shadow: 0 0 1px 0 black;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+#equal:focus {
+	outline: none;
   }
+
+  /* ----------------------HOVER--------------------- */
+#equal:hover {background-color: #ff881e}
+
+#equal:active {
+  background-color: #ff881e;
+  box-shadow: 0 3px #49402F;
+  transform: translateY(4px);
+}
+/* ------------------------------------------- */
+
+#AC {
+	width: 65px;
+	height: 50px;
+	border-radius: 50%;
+	color: white;
+	background: #A55723;
+	box-shadow: 0 0 1px 0 black;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+#AC:focus {
+	outline: none;
+	cursor: pointer;
+  }
+
+    /* ----------------------HOVER--------------------- */
+#AC:hover {background-color: #ed6e1a}
+
+#AC:active {
+  background-color: #ed6e1a;
+  box-shadow: 0 3px #49402F;
+  transform: translateY(4px);
+}
+/* ------------------------------------------- */
+
+#inputLabel {
+	position: relative;
+	height: 50px;
+	color: #49402F;
+	text-align: right;
+	font-size: 25px;
+	border-radius: 15px;
+	background: #c2b9b0;
+	box-shadow: 0 0 3px 0 black;
+
+}
+
+.top_side {
+	width: 65px;
+	height: 50px;
+	border-radius: 50%;
+	color: white;
+	background: #49402F;
+	cursor: pointer;
+	font-size: 18px;
+
+}
+
+.top_side:focus {
+	outline: none;
+  }
+
+.right_side {
+	width: 65px;
+	height: 50px;
+	border-radius: 50%;
+	color: white;
+	background: #E4DCA4;
+	box-shadow: 0 0 1px 0 black;
+	cursor: pointer;
+	font-size: 18px;
+
+}
+
+.right_side:focus {
+	outline: none;
+  }
+
+/* ----------------------HOVER--------------------- */
+ .right_side:hover {background-color: #fcf3b5}
+
+.right_side:active {
+  background-color: #fcf3b5;
+  box-shadow: 0 3px #49402F;
+  transform: translateY(4px);
+}
+/* ------------------------------------------- */
