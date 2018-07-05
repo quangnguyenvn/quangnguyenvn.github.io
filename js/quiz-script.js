@@ -35,27 +35,28 @@ function loadNextQuestion () {
     	
     	//------------SWEET ALERT ZONE -------
 		swal({title: "Sai rồi cưng!", 
-		text: "Ấn nút OK để chơi lại từ đầu nhé!",  
-		type: "error", 
-		showCancelButton: true,}).then(function(){ 
+		text: "Ấn OK để chơi lại từ đầu nhé!",  
+		type: "error",}).then(function(){ 
    		location.reload();
    		}
 		);
+//		return;
 		//-------------------------------
 	}	
-	if(questions[currentQuestion].answer == answer) {
-    	score += 1;
-	}
+	
     selectedOption.checked = false;
     currentQuestion++; 
     if(currentQuestion == totQuestions - 1) {
             nextButton.textContent = 'Xong';
     }
     if(currentQuestion == totQuestions) {
-    	document.body.style.backgroundImage = "url('img/completed.jpg')";
+    	//----------------STOP RAIN-----------
+			$('#rain').remove();
+   		//------------------------------------
+    	document.body.style.backgroundImage = "url('img/rainbow.jpg')";
         container.style.display = 'none';
         resultCont.style.display = '';
-      	resultCont.textContent = 'Done! Bạn trả lời đúng: ' + score + '/10 câu';
+      	resultCont.textContent = 'Done! Chúc bạn vui vẻ!';
         return;
     }
     loadQuestion(currentQuestion);

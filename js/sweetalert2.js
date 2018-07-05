@@ -24,7 +24,7 @@ var defaultParams = {
   showCancelButton: false,
   preConfirm: null,
   confirmButtonText: 'OK',
-  confirmButtonColor: '#3F826D',
+  confirmButtonColor: '#F1AEF6',
   confirmButtonClass: null,
   cancelButtonText: 'Kệ đi',
   cancelButtonColor: '#545E75',

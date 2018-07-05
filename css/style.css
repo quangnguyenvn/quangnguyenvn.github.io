@@ -1,16 +1,125 @@
-body {
+﻿body {
 font-family: 'IM Fell English SC', serif;
 font-family: 'Satisfy', cursive;
 font-family: 'Patrick Hand SC', cursive;
 font-family: 'Lora', serif;
 font-family: 'Inconsolata', monospace;
 font-family: 'Lobster', cursive;
-/*	background: #6cf;*/
-
-    background-size:     cover;                      /* <------ */
+	
+	height: 100vh;
+    background-size:     cover;                   
     background-repeat:   no-repeat;
-    background-position: center center;              /* optional, center the image */
+    background-position: center center;             
+   
 }
+
+.rainStyle {
+	height: 100vh;
+	background: url(../img/rain.png); 
+	animation: rain 1s linear infinite;
+	
+}
+/* Thunder */
+/* .rain:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	animation: lighting .3s linear infinite;
+	opacity: 0;
+} */
+
+@keyframes rain {
+	0%
+	{
+		background-position: 0% 0%;
+	}
+
+	100%
+	{
+		background-position: 20% 100%;
+	}
+}
+
+@keyframes lighting {
+	0%
+	{
+		opacity: 0;
+	}
+
+	10%
+	{
+		opacity: 0;
+	}
+
+	11%
+	{
+		opacity: 1;
+	}
+
+	14%
+	{
+		opacity: 0;
+	}
+
+	20%
+	{
+		opacity: 0;
+	}
+
+	21%
+	{
+		opacity: 0;
+	}
+
+	24%
+	{
+		opacity: 0;
+	}
+	
+	24%
+	{
+		opacity: 0;
+	}
+
+	104%
+	{
+		opacity: 0;
+	}
+}
+button {
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+
+button#rainbtn {
+	background: url(../icon/rain.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	margin-right: 20px;
+	float: right;
+}
+
+button#playpausebtn {
+	background: url(../icon/play.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin-left: 20px;
+}
+
+button#mutebtn {
+	background: url(../icon/speaker.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin-left: 10px;
+}
+
+/*--------CSS CONTAINER--------*/
 
 .container {
 	height: 300px;
@@ -21,25 +130,29 @@ font-family: 'Lobster', cursive;
 	transform: translateX(-50%) translateY(-50%);
 	background: rgba(255, 255, 255, 0.5);
 	padding: 20px;
-	border: 1px solid #545E75;
 	box-shadow: 0 0 14px 7px #fff;
+
 	
 }
 
 .title {
-	padding: 15px;
+	width: 300px;
+	height: 32px;
+	margin: 0 auto;
 	text-align: center;
 	font-size: 24px;
 	text-transform: uppercase;
-	color: #545E75;
+	color: #ffffff;
+	text-shadow: -2.5px 0	#DA70D6, 0 2.5px 	#DA70D6, 2.5px 0 	#DA70D6, 0 -2.5px #DA70D6;
 }
 
 .question {
 	padding: 10px;
 	font-size: 20px;
-	background: #545E75;
+	background: rgba(255, 255, 255, 0.5);
 	margin: 10px 0 10px 0;
-	color: #f6f6f6;
+	color: #ffffff;
+	text-shadow: -1px 0	#DA70D6, 0 1px 	#DA70D6, 1px 0 	#DA70D6, 0 -1px #DA70D6;
 
 }
 
@@ -50,25 +163,26 @@ font-family: 'Lobster', cursive;
 	vertical-align: middle;
 	background: rgba(255, 255, 255, 0.5);
 	margin: 10px 0 10px 10px;
-	color: #545E75;
+	color: #ffffff;
+	text-shadow: -1px 0	#DA70D6, 0 1px 	#DA70D6, 1px 0 	#DA70D6, 0 -1px #DA70D6;
 	cursor: pointer;
 }
 
 .option:hover {
-	background: #545E75;
+	background: #fae0fc;
 	color: #f6f6f6;
 }
 
 .next-btn {
-	border: none;
 	outline: none;
-	background: #545E75;
-	color:#f6f6f6;
+	background: rgba(255, 255, 255, 0.5);
+	color: #ffffff;
+	text-shadow: -1px 0	#DA70D6, 0 1px 	#DA70D6, 1px 0 	#DA70D6, 0 -1px #DA70D6;
 	width: 100px;
-	height: 35px;
+	height: 32px;
 	cursor: pointer;
 	float: right;
-	margin: 5px;
+	margin-right: 8px;
 	font-family: 'IM Fell English SC', serif;
 	font-family: 'Satisfy', cursive;
 	font-family: 'Patrick Hand SC', cursive;
@@ -79,8 +193,7 @@ font-family: 'Lobster', cursive;
 }
 
 .next-btn:hover {
-	background: #f6f6f6;
-	color: #3F826D;
+	background:#fae0fc;
 }
 
  .result {
@@ -90,11 +203,6 @@ font-family: 'Lobster', cursive;
 	font-size: 35px;
 	vertical-align: middle;
 	line-height: 300px;
-	color: #545E75;
+	color: #ffffff;
+	text-shadow: -2.5px 0	#DA70D6, 0 2.5px 	#DA70D6, 2.5px 0 	#DA70D6, 0 -2.5px #DA70D6;
 } 
-
-.option input:checked .option{
-	background: #545E75;
-	color: #f6f6f6;
-}
-
