@@ -1,208 +1,356 @@
-﻿body {
-font-family: 'IM Fell English SC', serif;
-font-family: 'Satisfy', cursive;
-font-family: 'Patrick Hand SC', cursive;
-font-family: 'Lora', serif;
-font-family: 'Inconsolata', monospace;
-font-family: 'Lobster', cursive;
-	
-	height: 100vh;
-    background-size:     cover;                   
-    background-repeat:   no-repeat;
-    background-position: center center;             
-   
+* {
+	font-family: 'Pacifico', cursive;
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Patrick Hand', cursive;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.wrap {
+	background-color: #EAEBED;
+}
+.header {
+    max-width: 1200px;
+    margin: auto;
+     /* The image used */
+   	 background-image: url("../img/background.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-.rainStyle {
-	height: 100vh;
-	background: url(../img/rain.png); 
-	animation: rain 1s linear infinite;
-	
-}
-/* Thunder */
-/* .rain:before {
-	content: '';
+.header_icon {
 	position: absolute;
 	width: 100%;
-	height: 100%;
-	background: #fff;
-	animation: lighting .3s linear infinite;
-	opacity: 0;
-} */
+	height: 10%;
+/*	border: solid 1px black;*/
 
-@keyframes rain {
-	0%
-	{
-		background-position: 0% 0%;
-	}
-
-	100%
-	{
-		background-position: 20% 100%;
-	}
 }
 
-@keyframes lighting {
-	0%
-	{
-		opacity: 0;
-	}
-
-	10%
-	{
-		opacity: 0;
-	}
-
-	11%
-	{
-		opacity: 1;
-	}
-
-	14%
-	{
-		opacity: 0;
-	}
-
-	20%
-	{
-		opacity: 0;
-	}
-
-	21%
-	{
-		opacity: 0;
-	}
-
-	24%
-	{
-		opacity: 0;
-	}
-	
-	24%
-	{
-		opacity: 0;
-	}
-
-	104%
-	{
-		opacity: 0;
-	}
-}
-button {
-	border: none;
-	cursor: pointer;
-	outline: none;
-}
-
-
-button#rainbtn {
-	background: url(../icon/rain.png) no-repeat;
-	width: 32px;
-	height: 32px;
-	margin-right: 20px;
-	float: right;
-}
-
-button#playpausebtn {
-	background: url(../icon/play.png) no-repeat;
-	width: 32px;
-	height: 32px;
-	float: left;
-	margin-left: 20px;
-}
-
-button#mutebtn {
-	background: url(../icon/speaker.png) no-repeat;
-	width: 32px;
-	height: 32px;
-	float: left;
-	margin-left: 10px;
-}
-
-/*--------CSS CONTAINER--------*/
-
-.container {
-	height: 300px;
-	width: 700px;
+.menu_bar {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	background: rgba(255, 255, 255, 0.5);
-	padding: 20px;
-	box-shadow: 0 0 14px 7px #fff;
-
-	
-}
-
-.title {
-	width: 300px;
-	height: 32px;
-	margin: 0 auto;
-	text-align: center;
-	font-size: 24px;
-	text-transform: uppercase;
-	color: #ffffff;
-	text-shadow: -2.5px 0	#DA70D6, 0 2.5px 	#DA70D6, 2.5px 0 	#DA70D6, 0 -2.5px #DA70D6;
-}
-
-.question {
-	padding: 10px;
-	font-size: 20px;
-	background: rgba(255, 255, 255, 0.5);
-	margin: 10px 0 10px 0;
-	color: #ffffff;
-	text-shadow: -1px 0	#DA70D6, 0 1px 	#DA70D6, 1px 0 	#DA70D6, 0 -1px #DA70D6;
-
-}
-
-.option {
-	width: 320px;
 	display: inline-block;
-	padding: 10px 0 10px 15px;
-	vertical-align: middle;
-	background: rgba(255, 255, 255, 0.5);
-	margin: 10px 0 10px 10px;
-	color: #ffffff;
-	text-shadow: -1px 0	#DA70D6, 0 1px 	#DA70D6, 1px 0 	#DA70D6, 0 -1px #DA70D6;
-	cursor: pointer;
-}
-
-.option:hover {
-	background: #fae0fc;
-	color: #f6f6f6;
-}
-
-.next-btn {
-	outline: none;
-	background: rgba(255, 255, 255, 0.5);
-	color: #ffffff;
-	text-shadow: -1px 0	#DA70D6, 0 1px 	#DA70D6, 1px 0 	#DA70D6, 0 -1px #DA70D6;
-	width: 100px;
-	height: 32px;
-	cursor: pointer;
-	float: right;
-	margin-right: 8px;
-	font-family: 'IM Fell English SC', serif;
-	font-family: 'Satisfy', cursive;
-	font-family: 'Patrick Hand SC', cursive;
-	font-family: 'Lora', serif;
-	font-family: 'Inconsolata', monospace;
-	font-family: 'Lobster', cursive;
-	font-size: 18px;
-}
-
-.next-btn:hover {
-	background:#fae0fc;
-}
-
- .result {
- 	width: 700px;
-	height: 300px;
+	width: 55%;
+	height: 10%;
+	top: 10%;
+	right:0;
+/*	border: solid 1px black;*/
+	font-size: 20px;
 	text-align: center;
-	font-size: 35px;
-	vertical-align: middle;
-	line-height: 300px;
-	color: #ffffff;
-	text-shadow: -2.5px 0	#DA70D6, 0 2.5px 	#DA70D6, 2.5px 0 	#DA70D6, 0 -2.5px #DA70D6;
-} 
+/*	background-color: #f18d9e; */
+/*	background-color: rgba(226, 122, 63, 0.6);*/
+	background-color: rgba(177, 215, 254, 0.6);
+}
+
+.bar_icon {
+	position: absolute;
+	display: inline-block;
+	width: 20%;
+	height: 10%;
+	top: 10%;
+	left:0;
+/*	border: solid 1px black;*/
+	text-align: center;
+/*	background-color: #f18d9e; */
+	background-color: rgba(177, 215, 254, 0.6);
+}
+
+.bar_icon a {
+	position: relative;
+	top: -35%;
+}
+
+.menu_bar a {
+	position: relative;
+	text-decoration: inherit;
+	color:FFFFFF;
+	font-weight: 200;
+	padding: 5px;
+	top: 25%;
+	font-size: 28px;
+
+}
+
+.remind_box {
+	position: absolute;
+	width: 42%;
+	height: 30%;
+	bottom: 0%;
+	left:0;
+/*	border: solid 1px black;*/
+	text-align: center;
+/*	background-color: #f18d9e; */
+	background-color: rgba(229, 215, 42, 0.6);
+}
+
+.remind_box .title {
+	position: absolute;
+	font-size: 32px;
+	color: white;
+/*	border: solid 1px black;*/
+	width: 100%;
+	height:20%;
+	top: 20%;
+	font-weight: 600;
+}
+
+.remind_box .urge {
+	position: absolute;
+	font-size: 20px;
+	color: white;
+/*	border: solid 1px black;*/
+	width: 100%;
+	height:20%;
+	top: 45%;
+	font-weight: 200;
+}
+
+/*	----------COUNTDOWN---------- */
+
+.count_down {
+    max-width: 1200px;
+    margin: auto;
+     /* The image used */
+   	background-image: url("../img/countdown.jpg");
+    /* Set a specific height */
+    height:48%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.countdown_title {
+	position: absolute;
+	font-size: 24px;
+	color: #333333;
+/*	border: solid 1px black;*/
+	width: 40%;
+	height:10%;
+	top: 20%;
+	right: 23%;
+	text-align: center;
+	font-weight: 600;
+}
+
+.calendar {
+	position: absolute;
+/*	border: solid 1px black;*/
+	width: 55%;
+	height:55%;
+	top: 40%;
+	right: 15%;
+	text-align: center;
+	font-weight: 600;
+}
+
+/*----------COUNTDOWN CALENDAR---------*/
+
+#countdown {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+#countdown li {
+	list-style: none;
+	display:inline-block;
+	text-transform: uppercase;
+	text-align: center;
+  	font-size: 18px;
+/*  	border: solid 1px black;*/
+  	padding: 10px;
+}
+
+#countdown li span {
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+  height: 82px;
+  line-height: 80px;
+  width: 100px;
+}
+
+#countdown li .days {
+  background-color: #45b29d;
+  border-top: 1px solid #6ac1b1;
+  border-left: 1px solid #6ac1b1;
+}
+
+#countdown li .hours {
+  background-color: #efc94c; 
+  border-top: 1px solid #f2d470;
+  border-left: 1px solid #f2d470;
+}
+
+#countdown li .minutes {
+  background-color: #e27a3f;
+  border-top: 1px solid #e89565;
+  border-left: 1px solid #e89565;
+}
+
+#countdown li .seconds {
+  background-color: #df5a49;
+  border-top: 1px solid #e57b6d;
+  border-left: 1px solid #e57b6d;
+}
+
+
+/* --------SPEAKER ------- */
+
+.speaker {
+    max-width: 1200px;
+    margin: auto;
+     /* The image used */
+   	background-image: url("../img/speaker.jpg");
+    /* Set a specific height */
+    height:70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.speaker_ad {
+	position: absolute;
+	font-size: 24px;
+	color: #333333;
+/*	border: solid 1px black;*/
+	width: 20%;
+	height:10%;
+	top: 5%;
+	left:20%;
+	text-align: center;
+	font-weight: 600;
+}
+
+.speaker_list {
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+/*  border: solid 1px black;*/
+  width: 60%;
+  height:70%;
+  top: 15%;  
+}
+
+.speaker_list li {
+	list-style: none;
+	display:inline-block;
+	text-transform: uppercase;
+	text-align: center;
+/*  	border: solid 1px black;*/
+  	margin: 10px;
+  	width: 30%;
+  	height: 90%;
+}
+
+.speaker_list img {
+	position: relative;
+	width: 100%;
+	height: 80%;
+}
+
+.speaker_list p {
+  	font-size: 18px;
+  	color: #333333;
+  	margin-top: 15%;
+}
+
+.robot {
+	position: absolute;
+	width: 45%;
+	height: 100%;
+	right: 0%;
+	background-image: url("../img/robot.png");
+	z-index: 99;
+}
+/*	----------AGENDA---------- */
+
+.agenda {
+    max-width: 1200px;
+    margin: auto;
+     /* The image used */
+   	background-image: url("../img/agenda.jpg");
+    /* Set a specific height */
+    height:70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.robot_png {
+	position: absolute;
+	width: 16%;
+	height: 100%;
+	left: 0%;
+	background-image: url("../img/robot2.png");
+	z-index:50;
+}
+.schedule_title {
+	position: absolute;
+/*	border: solid 1px black;*/
+	text-align: center;
+	width: 40%;
+	height:10%;
+	top: 10%;
+	left:30%;
+	font-size: 32px;
+	color: #333333;
+	font-weight: 600;
+	z-index:99;
+}
+
+.schedule {
+	position: absolute;
+/*	border: solid 1px black;*/
+	width: 80%;
+	height:60%;
+	top: 25%;
+	left:15%;
+}
+
+.schedule li {
+	list-style: none;
+	text-transform: uppercase;
+	float: left;
+/*  	border: solid 1px black;*/
+  	margin: 20px;
+  	color: #333333;
+  	font-size: 18px;
+  	z-index:99;
+}
+/*	----------MAP---------- */
+
+.map {
+    max-width: 1200px;
+    margin: auto;
+     /* The image used */
+   	background-image: url("../img/map.jpg");
+    /* Set a specific height */
+    height:87%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*	----------CONTACTFORM---------- */
+
+.contact_form {
+    max-width: 1200px;
+    margin: auto;
+     /* The image used */
+   	background-image: url("../img/contact_form.png");
+    /* Set a specific height */
+	height:65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
