@@ -347,10 +347,21 @@
      /* The image used */
    	background-image: url("../img/contact_form.png");
     /* Set a specific height */
-	height:65%;
+	height:80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    z-index: 10;
 }
 
+.sukhoi {
+	position: absolute;
+	background-image: url("../img/plane.png");
+	width:75%;
+	height: 45%;
+	bottom:0%;
+	left: 12.5%;
+/*	border: solid 1px black;*/
+
+}
