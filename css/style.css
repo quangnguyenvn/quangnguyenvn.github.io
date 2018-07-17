@@ -340,6 +340,14 @@
     position: relative;
 }
 /*	----------CONTACTFORM---------- */
+.sukhoi {
+	position: absolute;
+	background-image: url("../img/fly.png");
+	width:100%;
+	height: 37%;
+	bottom:0%;
+/*	border: solid 1px black;*/
+}
 
 .contact_form {
     max-width: 1200px;
@@ -352,16 +360,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: 10;
 }
 
-.sukhoi {
-	position: absolute;
-	background-image: url("../img/plane.png");
-	width:75%;
-	height: 45%;
-	bottom:0%;
-	left: 12.5%;
-/*	border: solid 1px black;*/
 
-}
