@@ -1,430 +1,70 @@
 * {
-	font-family: 'Pacifico', cursive;
-	font-family: 'Amatic SC', cursive;
-	font-family: 'Patrick Hand', cursive;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+	box-sizing: border-box;
 }
 
-html,body {
-	width: 100%;
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
-	overflow-x: hidden;
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	background-image: url("../background/kinglanding.png");
+	background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+h1 {
+	margin: 30px;
+	text-transform: uppercase;
+	font-size: 35px;
 }
 
 .wrap {
-	background-color: #EAEBED;
-}
-.header {
-    width: 90%;
-    margin: auto;
-     /* The image used */
-   	 background-image: url("../img/kid.jpg");
-    /* Set a specific height */
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.header_icon {
-	width: 100%;
-	height: 10%;
-
-}
-
-.menu_bar {
 	position: relative;
-	width: 65%;
-	height: 11%;
-	left: 35%;
-	font-size: 20px;
-	text-align: center;
-	background-color: rgba(177, 215, 254, 0.6);
-}
-
-.bar_icon {
-	position: relative;
-	width: 20%;
-	height: 11%;
-	top:-12%;
-	right:0%;
-	text-align: center;
-	background-color: rgba(177, 215, 254, 0.6);
-}
-
-.bar_icon a {
-	position: relative;
-	right: 0%;
-	top:-20%;
-}
-
-.menu_bar ul {
-	position: relative;
-	display: block;  /* Remove bullet points; allow greater control of positioning */
-    padding: 0;      /* Override defaults for lists */
-    margin: 0;       /* Override defaults for lists */
-    width: 100%;     /* Get the row full width */
-}
-
-.menu_bar li {
-	float: left;
-	text-align: center;
-	list-style: none;
-	padding: 20px 0 20px 0;
-	font-size: 22px;
-	width: 20%;
+	margin: auto;
+	padding: 15px;
+	max-width: 100%;
+	max-height: 100%;
 	height: 100%;
-	font-weight: 600;
-}
-
-.menu_hover:hover {
-	background-color: rgba(229, 215, 42, 0.6);
-}
-
-.menu_bar a {
-	cursor: pointer;
-}
-
-.menu_link {
-	text-decoration: inherit;
-	color:FFFFFF;
-}
-.remind_box {
-	position: absolute;
-	width: 42%;
-	height: 30%;
-	bottom: 0%;
-	left:0;
+	/* border: solid 1px red; */
 	text-align: center;
-	background-color: rgba(229, 215, 42, 0.6);
 }
 
-.remind_box .title {
-	position: absolute;
-	font-size: 32px;
-	color: white;
-	width: 100%;
-	height:20%;
-	top: 10%;
-	font-weight: 600;
-}
-
-.remind_box .detail_time {
-	position: absolute;
-	font-size: 28px;
-	color: white;
-	width: 100%;
-	height:20%;
-	top: 37%;
-	font-weight: 600;
-}
-
-.remind_box .urge {
-	position: absolute;
-	font-size: 20px;
-	color: white;
-	width: 100%;
-	height:20%;
-	top: 65%;
-	font-weight: 200;
-	cursor: pointer;
-}
-
-/*	----------COUNTDOWN---------- */
-
-.count_down {
-    width: 90%;
-    margin: auto;
-     /* The image used */
-   	background-image: url("../img/countdown.jpg");
-    /* Set a specific height */
-    height:52%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.countdown_title {
+.content {
 	position: relative;
-	font-size: 27px;
-	color: #333333;
-	width: 40%;
-	height:10%;
-	top: 20%;
-	left: 38%;
-	text-align: center;
-	font-weight: 600;
+	overflow: auto;
 }
 
-.calendar {
+.card-inner {
 	position: relative;
-	width: 60%;
-	height:55%;
-	top: 30%;
-	left: 30%;
-	font-weight: 600;
 }
-
-/*----------COUNTDOWN CALENDAR---------*/
-
-#countdown {
-	display: block;  /* Remove bullet points; allow greater control of positioning */
-    padding: 0;      /* Override defaults for lists */
-    margin: 0;       /* Override defaults for lists */
-    width: 100%;     /* Get the row full width */
-    text-align: center;
-}
-
-#countdown li {
-	display:inline-block;
-	width: 20%;
-	text-transform: uppercase;
-	text-align: center;
-  	font-size: 18px;
-  	padding: 22px;
-}
-
-#countdown p {
+.card {
+	width: 12%;
+	/*float: left;*/
+	display: inline-block;
 	padding: 10px;
 }
 
-#countdown li span {
-  display: block;
-  font-size: 40px;
-  font-weight: 700;
-  height: 82px;
-  line-height: 80px;
-  width: 100px;
-}
-
-#countdown li .days {
-  background-color: #1e7fc3;
-}
-
-#countdown li .hours {
-  background-color: #efc50e; 
-}
-
-#countdown li .minutes {
-  background-color: #f47524;
-}
-
-#countdown li .seconds {
-  background-color: #d51a09;
-}
-
-
-/* --------SPEAKER ------- */
-
-.speaker {
-    width: 90%;
-    margin: auto;
-     /* The image used */
-   	background-image: url("../img/speaker.jpg");
-    /* Set a specific height */
-    height:70%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.speaker_ad {
-	position: relative;
-	font-size: 27px;
-	color: #333333;
-	width: 20%;
-	height:10%;
-	top: 10%;
-	left:17%;
-	text-align: center;
-	font-weight: 600;
-}
-
-.speaker_list {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  width: 80%;
-  height:70%;
-  top: 15%;  
-}
-
-.speaker_list li {
-	list-style: none;
-	float: left;
-	text-transform: uppercase;
-	text-align: center;
-  	margin: 10px;
-  	width: 20%;
-  	height: 90%;
-}
-
-.speaker_list img {
-	position: relative;
-	width: 100%;
-	height: 80%;
-}
-
-.speaker_list p {
-  	font-size: 18px;
-  	color: #333333;
-  	margin-top: 15%;
-}
-
-.robot {
-	position: absolute;
-	width: 45%;
-	height: 100%;
-	right: 0%;
-	top:0%;
-	background-image: url("../img/robot.png");
-	z-index: 99;
-}
-/*	----------AGENDA---------- */
-
-.agenda {
-    width: 90%;
-    margin: auto;
-     /* The image used */
-   	background-image: url("../img/agenda.jpg");
-    /* Set a specific height */
-    height:70%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.robot_png {
-	position: absolute;
-	width: 27%;
-	height: 100%;
-	left: 0%;
-	background-image: url("../img/robot2.png");
-	z-index:50;
-}
-.schedule_title {
-	position: absolute;
-/*	border: solid 1px black;*/
-	text-align: center;
-	width: 40%;
-	height:10%;
-	top: 15%;
-	left:40%;
-	font-size: 32px;
-	color: #333333;
-	font-weight: 600;
-	z-index:99;
-}
-
-.schedule_time {
-	position: absolute;
-/*	border: solid 1px black;*/
-	width: 80%;
-	height:60%;
-	top: 25%;
-	left:24.5%;
-}
-
-.schedule_act {
-	position: absolute;
-/*	border: solid 1px black;*/
-	width: 65%;
-	height:60%;
-	top: 25%;
-	left:35%;
-}
-
-.schedule_time li {
-	list-style: none;
-	text-transform: uppercase;
-/*	float: left;*/
-/*  	border: solid 1px black;*/
-  	margin: 35px;
-  	color: #333333;
-  	font-size: 20px;
-  	z-index:99;
-}
-
-.schedule_act li {
-	list-style: none;
-	text-transform: uppercase;
-/*	float: left;*/
-/*  	border: solid 1px black;*/
-  	margin: 35px;
-  	color: #333333;
-  	font-size: 20px;
-  	z-index:99;
-}
-
-
-.session {
-	text-align:center;
-/*	border: solid 1px black;*/
-	width: 12%;
-	height: 15%;
-	padding: 3px;
-}
-.speech {
-/*	border: solid 1px black;*/
-	height: 15%;
-	padding: 3px;
-}
-.session_1 {
-	background-color: rgba(30, 127, 195, 0.6);
-}
-
-.session_2 {
-	background-color: rgba(239, 197, 14, 0.6);
-}
-
-.session_3 {
-	background-color: rgba(244, 117, 36, 0.6);
-}
-
-.session_4 {
-	background-color: rgba(213, 26, 9, 0.6);
-}
-/*	----------MAP---------- */
-
-.contact_me {
-	position: relative;
-	width: 90%;
-	margin: auto;
-	height: 450px;
-}
-
-#gmap {
-
-	height: 450px;
-	margin: auto;
-}
-
-.contact_form {
-    width: 90%;
-    margin: auto;
-     /* The image used */
-   	background-image: url("../img/contact_form.png");
-    /* Set a specific height */
-	height:80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.sukhoi {
-	position: absolute;
-	background-image: url("../img/fly.png");
+.card img {
 	width:100%;
-	height: 30%;
-	bottom:0%;
-/*	border: solid 1px black;*/
-} 
+}
+
+.card .front {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.card:hover .front {
+	transform: rotateY(0deg);
+}
+
+.card:hover .back {
+	transform: rotateY(180deg);
+}
+
+.card .back, .card .front {
+	transition: all 0.5s;
+	backface-visibility: hidden;
+	
+}
