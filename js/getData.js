@@ -25,7 +25,7 @@ var submit = {
         $("#firstName_span").append(firstName);
         $("#secondName_span").append(secondName);
 
-    }
+ }
 }
 
 // BEGIN METHOD

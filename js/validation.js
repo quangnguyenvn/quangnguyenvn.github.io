@@ -33,7 +33,7 @@ var message = {
 					required: true,
 					email: true,
 		/*--------- REMOTED SERVER-----------*/
-					/* remote: 'https://quangnguyenvn.github.io:3000/' */
+					// remote: 'https://quangnguyenvn.github.io:3000/'
 				},
 				password: {
 					required: true,
@@ -134,7 +134,6 @@ var validate = {
 		// OK
 		else {
 			return true;
-
 		}
 	}
 }
