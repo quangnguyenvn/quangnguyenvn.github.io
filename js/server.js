@@ -1,4 +1,4 @@
-var https = require('https');
+var http = require('http');
 var querystring = require('querystring');
 
 function accountExists(email) {
@@ -6,7 +6,7 @@ function accountExists(email) {
 	return emails.indexOf(email) > -1;
 }
 
-var server = https.createServer(function (req, res) {
+var server = http.createServer(function (req, res) {
 	var params = req.url.split('?')[1];
 	var data = querystring.parse(params);
 	var email = data.email;
