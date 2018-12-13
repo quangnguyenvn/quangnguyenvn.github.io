@@ -1,0 +1,182 @@
+* {
+	font-family: 'Inconsolata', monospace;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+
+}
+
+body {
+	background: #E4DCA4;
+}
+
+.button {
+	width: 65px;
+	height: 50px;
+	border-radius: 50%;
+	color: white;
+	background:#49402F;
+	cursor: pointer;
+	font-size: 18px;
+
+}
+/* ----------------------HOVER--------------------- */
+.button:hover, .top_side:hover {background-color: #8e7d5e}
+
+.button:active, .top_side:active {
+  background-color: #8e7d5e;
+  box-shadow: 0 3px #49402F;
+  transform: translateY(4px);
+}
+/* ------------------------------------------- */
+.button:focus {
+	outline: none;
+  }
+
+.container {
+	position: relative;
+	width: 266px;
+	height: 440px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+    left: 0;
+    right: 0;
+	bottom: 0;
+	background: #B6A37C;
+
+}
+
+.wrap {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 300px;
+	height: 500px;
+	border-radius: 10px;
+	background: #B6A37C;
+	box-shadow: 0 0 25px 0 black;
+}
+
+#brand{
+	text-align: center;
+	vertical-align: middle;
+	height: 30px;
+	color: white;
+	font-size: 25px;
+}
+#space1 {
+	height: 5px;
+}
+#space2 {
+	height: 25px;
+}
+#equal {
+	width: 134px;
+	height: 45px;
+	border-radius: 20px;
+	color: white;
+	background: #E77917;
+	box-shadow: 0 0 1px 0 black;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+#equal:focus {
+	outline: none;
+  }
+
+  /* ----------------------HOVER--------------------- */
+#equal:hover {background-color: #ff881e}
+
+#equal:active {
+  background-color: #ff881e;
+  box-shadow: 0 3px #49402F;
+  transform: translateY(4px);
+}
+/* ------------------------------------------- */
+
+#AC {
+	width: 65px;
+	height: 50px;
+	border-radius: 50%;
+	color: white;
+	background: #A55723;
+	box-shadow: 0 0 1px 0 black;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+#AC:focus {
+	outline: none;
+	cursor: pointer;
+  }
+
+    /* ----------------------HOVER--------------------- */
+#AC:hover {background-color: #ed6e1a}
+
+#AC:active {
+  background-color: #ed6e1a;
+  box-shadow: 0 3px #49402F;
+  transform: translateY(4px);
+}
+/* ------------------------------------------- */
+
+#inputLabel {
+	position: relative;
+	height: 50px;
+	color: #49402F;
+	text-align: right;
+	font-size: 25px;
+	border-radius: 15px;
+	background: #c2b9b0;
+	box-shadow: 0 0 3px 0 black;
+
+}
+
+.top_side {
+	width: 65px;
+	height: 50px;
+	border-radius: 50%;
+	color: white;
+	background: #49402F;
+	cursor: pointer;
+	font-size: 18px;
+
+}
+
+.top_side:focus {
+	outline: none;
+  }
+
+.right_side {
+	width: 65px;
+	height: 50px;
+	border-radius: 50%;
+	color: white;
+	background: #E4DCA4;
+	box-shadow: 0 0 1px 0 black;
+	cursor: pointer;
+	font-size: 18px;
+
+}
+
+.right_side:focus {
+	outline: none;
+  }
+
+/* ----------------------HOVER--------------------- */
+ .right_side:hover {background-color: #fcf3b5}
+
+.right_side:active {
+  background-color: #fcf3b5;
+  box-shadow: 0 3px #49402F;
+  transform: translateY(4px);
+}
+/* ------------------------------------------- */
