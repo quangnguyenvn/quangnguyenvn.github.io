@@ -11,18 +11,6 @@
     "density": "7697",
     "population": "5535000"
 }, {
-    "name": "Hong Kong",
-    "id": "HK",
-    "area": "1104",
-    "density": "6571",
-    "population": "7234800"
-}, {
-    "name": "Vatican City",
-    "id": "VA",
-    "area": "0.44",
-    "density": "1818",
-    "population": "800"
-}, {
     "name": "Bahrain",
     "id": "BH",
     "area": "757",
@@ -172,12 +160,6 @@
     "area": "197",
     "density": "282",
     "population": "55519"
-}, {
-    "name": "Vietnam",
-    "id": "VN",
-    "area": "331212",
-    "density": "268",
-    "population": "88780000"
 }, {
     "name": "United Kingdom",
     "id": "GB",
