@@ -1,0 +1,19 @@
+[{
+    "name": "Monaco",
+    "id": "MC",
+    "area": "2",
+    "density": "18900",
+    "population": "37800"
+}, {
+    "name": "Singapore",
+    "id": "SG",
+    "area": "719",
+    "density": "7697",
+    "population": "5535000"
+}, {
+    "name": "Svalbard and Jan Mayen",
+    "id": "SJ",
+    "area": "61399",
+    "density": "0.04",
+    "population": "2655"
+}]
