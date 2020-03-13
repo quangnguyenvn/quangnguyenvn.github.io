@@ -1,0 +1,379 @@
+[ {
+    "name": "Singapore",
+    "id": "SG",
+    "change": "-49.81",
+    "quote": "2628.83",
+    "changeprc": "-1.86",
+    "local:": "14:33"
+}, {
+    "name": "Hong Kong",
+    "id": "HK",
+    "change": "-654.07",
+    "quote": "23655.00",
+    "changeprc": "-2.69",
+    "local:": "14:47"
+}, {
+    "name": "Netherlands",
+    "id": "NL",
+    "change": "-52.06",
+    "quote": "432.10",
+    "changeprc": "-10.75",
+    "local:": "19:05"
+},  {
+    "name": "India",
+    "id": "IN",
+    "change": "446.87",
+    "quote": "33225.01",
+    "changeprc": "1.36",
+    "local:": "12:17"
+}, {
+    "name": "Israel",
+    "id": "IL",
+    "change": "-68.34",
+    "quote": "1251.56",
+    "changeprc": "-5.18",
+    "local:": "18:30"
+}, {
+    "name": "Belgium",
+    "id": "BE",
+    "change": "-424.51",
+    "quote": "2723.90",
+    "changeprc": "-13.48",
+    "local:": "18:29"
+}, {
+    "name": "Philippines",
+    "id": "PH",
+    "change": "46.01",
+    "quote": "5782.28",
+    "changeprc": "0.80",
+    "local:": "14:32"
+}, {
+    "name": "Japan",
+    "id": "JP",
+    "change": "-1128.58",
+    "quote": "17431.05",
+    "changeprc": "-6.08",
+    "local:": "15:15"
+}, {
+    "name": "Vietnam",
+    "id": "VN",
+    "change": "-20.06",
+    "quote": "749.19",
+    "changeprc": "-2.61",
+    "local:": "13:47"
+}, {
+    "name": "Ireland",
+    "id": "IE",
+    "change": "-565.49",
+    "quote": "5125.94",
+    "changeprc": "-9.94",
+    "local:": "17:30"
+}, {
+    "name": "United Kingdom",
+    "id": "GB",
+    "change": "-642.52",
+    "quote": "5234.00",
+    "changeprc": "-10.93",
+    "local:": "17:34"
+}, {
+    "name": "Jamaica",
+    "id": "JM",
+    "change": "-3813",
+    "quote": "415475",
+    "changeprc": "-0.91",
+    "local:": "16:00"
+}, {
+    "name": "Germany",
+    "id": "DE",
+    "change": "-1277.98",
+    "quote": "9160.70",
+    "changeprc": "-12.24",
+    "local:": "18:34"
+}, {
+    "name": "Luxembourg",
+    "id": "LU",
+    "change": "-42.98",
+    "quote": "1239.096",
+    "changeprc": "-3.35",
+    "local:": "12:22"
+}, {
+    "name": "Italy",
+    "id": "IT",
+    "change": "-3194.41",
+    "quote": "16286.37",
+    "changeprc": "-16.40",
+    "local:": "18:43"
+}, {
+    "name": "Switzerland",
+    "id": "CH",
+    "change": "-882.06",
+    "quote": "8270.44",
+    "changeprc": "-9.64",
+    "local:": "18:34"
+}, {
+    "name": "Czech Republic",
+    "id": "CZ",
+    "change": "-69.36",
+    "quote": "815.74",
+    "changeprc": "-7.84",
+    "local:": "17:25"
+}, {
+    "name": "Thailand",
+    "id": "TH",
+    "change": "-10.95",
+    "quote": "1103.96",
+    "changeprc": "-0.98",
+    "local:": "12:29"
+}, {
+    "name": "Indonesia",
+    "id": "ID",
+    "change": "-245.78",
+    "quote": "4649.97",
+    "changeprc": "4649.97",
+    "local:": "11:30"
+}, {
+    "name": "Poland",
+    "id": "PL",
+    "change": "-5382.86",
+    "quote": "37164.02",
+    "changeprc": "-12.65",
+    "local:": "18:15"
+}, {
+    "name": "France",
+    "id": "FR",
+    "change": "-565.98",
+    "quote": "4044.26",
+    "changeprc": "-12.28",
+    "local:": "18:35"
+}, {
+    "name": "Portugal",
+    "id": "PT",
+    "change": "-304.37",
+    "quote": "2634.04",
+    "changeprc": "-10.36",
+    "local:": "17:37"
+}, {
+    "name": "Hungary",
+    "id": "HU",
+    "change": "0.00",
+    "quote": "32317.89",
+    "changeprc": "0.00",
+    "local:": "07:00"
+}, {
+    "name": "Austria",
+    "id": "AT",
+    "change": "-314.73",
+    "quote": "1991.22",
+    "changeprc": "-13.65",
+    "local:": "18:45"
+}, {
+    "name": "Turkey",
+    "id": "TR",
+    "change": "-7326.77",
+    "quote": "93639.50",
+    "changeprc": "-7.26",
+    "local:": "18:10"
+}, {
+    "name": "United Arab Emirates",
+    "id": "AE",
+    "change": "-313.33",
+    "quote": "3922.18",
+    "changeprc": "-7.40",
+    "local:": "14:00"
+}, {
+    "name": "Spain",
+    "id": "ES",
+    "change": "-103.63",
+    "quote": "637.99",
+    "changeprc": "637.99",
+    "local:": "18:38"
+},  {
+    "name": "Costa Rica",
+    "id": "CR",
+    "change": "0.00",
+    "quote": "9875.68",
+    "changeprc": "0.00",
+    "local:": "14:00"
+}, {
+    "name": "Malaysia",
+    "id": "MY",
+    "change": "-63.21",
+    "quote": "1356.22",
+    "changeprc": "-4.45",
+    "local:": "14:48"
+}, {
+    "name": "Egypt",
+    "id": "EG",
+    "change": "0.00",
+    "quote": "1024.03",
+    "changeprc": "0.00",
+    "local:": "12/31"
+}, {
+    "name": "Greece",
+    "id": "GR",
+    "change": "-63.93",
+    "quote": "538.55",
+    "changeprc": "-10.61",
+    "local:": "18:19"
+}, {
+    "name": "Ukraine",
+    "id": "UA",
+    "change": "-1.65",
+    "quote": "531.51",
+    "changeprc": "-0.31",
+    "local:": "18:00"
+}, {
+    "name": "Jordan",
+    "id": "JO",
+    "change": "-1.65",
+    "quote": "531.51",
+    "changeprc": "-0.31",
+    "local:": "18:00"
+}, {
+    "name": "Ireland",
+    "id": "IE",
+    "change": "-565.49",
+    "quote": "5125.94",
+    "changeprc": "-9.94",
+    "local:": "17:30"
+},  {
+    "name": "Ecuador",
+    "id": "EC",
+    "change": "0.00",
+    "quote": "198.15",
+    "changeprc": "0.00",
+    "local:": "12:31"
+},  {
+    "name": "Mexico",
+    "id": "MX",
+    "change": "-2041.85",
+    "quote": "36636.70",
+    "changeprc": "-5.28 ",
+    "local:": "18:40"
+}, {
+    "name": "South Africa",
+    "id": "ZA",
+    "change": "-4389.49",
+    "quote": "39502.00",
+    "changeprc": "-10.00",
+    "local:": "16:59"
+}, {
+    "name": "Colombia",
+    "id": "CO",
+    "change": "-121.15",
+    "quote": "1174.31",
+    "changeprc": "-9.35",
+    "local:": "16:59"
+}, {
+    "name": "Argentina",
+    "id": "AR",
+    "change": "-3067.71",
+    "quote": "28351.89",
+    "changeprc": "-9.76",
+    "local:": "18:34"
+}, {
+    "name": "United States",
+    "id": "US",
+    "change": "-750.25",
+    "quote": "7201.80",
+    "changeprc": "-9.43",
+    "local:": "18:15"
+}, {
+    "name": "Venezuela",
+    "id": "VE",
+    "change": "0",
+    "quote": "103457",
+    "changeprc": "0.00",
+    "local:": "12/31"
+}, {
+    "name": "Brazil",
+    "id": "BR",
+    "change": "-12588.60",
+    "quote": "72582.53",
+    "changeprc": "-14.78",
+    "local:": "19:36"
+}, {
+    "name": "Peru",
+    "id": "PE",
+    "change": "-1782.08",
+    "quote": "15312.23",
+    "changeprc": "-10.42",
+    "local:": "13:55"
+}, {
+    "name": "Chile",
+    "id": "CL",
+    "change": "-252.07",
+    "quote": "3727.60",
+    "changeprc": "-6.33",
+    "local:": "18:30"
+}, {
+    "name": "Finland",
+    "id": "FI",
+    "change": "-846.68",
+    "quote": "7432.91",
+    "changeprc": "-10.23",
+    "local:": "19:36"
+}, {
+    "name": "New Zealand",
+    "id": "NZ",
+    "change": "-506.41",
+    "quote": "9826.86",
+    "changeprc": "-4.90",
+    "local:": "18:09"
+}, {
+    "name": "Norway",
+    "id": "NO",
+    "change": "-54.33",
+    "quote": "586.22",
+    "changeprc": "-8.48",
+    "local:": "18:40"
+}, {
+    "name": "Nigeria",
+    "id": "NG",
+    "change": "-336.81",
+    "quote": "26471.43",
+    "changeprc": "-1.26",
+    "local:": "12:31"
+}, {
+    "name": "Russia",
+    "id": "RU",
+    "change": "-119.78",
+    "quote": "966.40",
+    "changeprc": "-11.03",
+    "local:": "18:51"
+}, {
+    "name": "Canada",
+    "id": "CA",
+    "change": "-1754.64",
+    "quote": "12515.45",
+    "changeprc": "-12.30",
+    "local:": "19:05"
+},  {
+    "name": "Australia",
+    "id": "AU",
+    "change": "219.80",
+    "quote": "5590.70",
+    "changeprc": "4.09",
+    "local:": "17:24"
+}, {
+    "name": "Taiwan",
+    "id": "TW",
+    "change": "-293.45",
+    "quote": "10128.87",
+    "changeprc": "-2.82",
+    "local:": "13:33"
+}, {
+    "name": "South Korea",
+    "id": "KR",
+    "change": "-62.89",
+    "quote": "1771.44",
+    "changeprc": "-3.43",
+    "local:": "15:33"
+}, {
+    "name": "China",
+    "id": "CN",
+    "change": "-37.53",
+    "quote": "2885.95",
+    "changeprc": "-1.28",
+    "local:": "14:47"
+}]
